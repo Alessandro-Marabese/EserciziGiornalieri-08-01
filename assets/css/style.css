@@ -132,6 +132,18 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.03em;
 }
+h1 span {
+  position: relative;
+  display: inline-block;
+  
+}
+span img {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  width: 100%;  
+  opacity: 50%;
+}
 #template {
   margin-bottom: 1rem;
 }
@@ -454,11 +466,7 @@ footer a {
     max-width: 1200px;
     margin-left: 3.3em;
     margin-right: 3.3em;
-  }
-  h1, #template {
-    display: inline-block;
-    margin-right: 0.8rem;
-  }
+  }  
 }
 
 @media print {
